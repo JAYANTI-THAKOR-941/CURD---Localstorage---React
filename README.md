@@ -1,16 +1,17 @@
-# React + Vite
+# React Local Storage CRUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Product management exercise using React and browser-local persistence.
 
-Currently, two official plugins are available:
+## Project structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- `src/admin/ProductManagement.jsx`
+- `src/App.jsx`
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/JAYANTI-THAKOR-941/CURD---Localstorage---React.git
+cd CURD---Localstorage---React
+```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install Node.js and npm. Run `npm install` followed by `npm run dev`. Open the URL shown in the terminal.
